@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "fs": "^0.0.1-security",
     "jquery": "^3.2.1",
     "koa": "^2.2.0",
     "koa-bodyparser": "^4.2.0",
