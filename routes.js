@@ -54,21 +54,6 @@ regist.post('/registNow', async ctx => {
     })
 });
 
-async function join(name) {
-    return new Promise((resolve, reject) => {
-        TestModel.create({
-            name,
-            data: Date.now()
-        }, (error, doc) => {
-            if (error) {
-                reject(error);
-            } else {
-                resolve(doc)
-            }
-        });
-    })
-
-}
 
 let router = new Router();
 router.use('/login', login.routes());
