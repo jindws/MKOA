@@ -1,0 +1,25 @@
+{
+  "name": "MKOA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "forever": "forever start app.js",
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.2.1",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-ejs": "^4.0.0",
+    "koa-router": "7.1",
+    "koa-static": "^3.0.0",
+    "mongoose": "^4.9.1",
+    "vue": "^2.2.6"
+  },
+  "repository": "git@github.com:moiamoia/MKOA.git",
+  "author": "jindw <jindaweihd@163.com>"
+}
